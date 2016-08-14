@@ -10,6 +10,7 @@ var Category = require('./models/category');
 // CONNECT TO MONGOOSE
 var db = mongoose.connect('mongodb://localhost:27017/musicstore');
 
+
 // ROUTES FOR THE API
 app.get('/', function(req, res) {
     res.send('this is the root..');
